@@ -7,7 +7,7 @@ def rescalesize(frame, scale = 0.5):
     return cv.resize(frame, dims, interpolation=cv.INTER_AREA)
 
 #images
-img = cv.imread(r'C:\Users\Samhruth\Pictures\Saved Pictures\ForEncry.jpeg')
+img = cv.imread(r'')
 cv.imshow('Sudo', img)
 cv.waitKey(0)
 
