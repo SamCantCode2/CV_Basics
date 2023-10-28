@@ -11,7 +11,7 @@ def reschange(width, height, capture): #used for current video
     capture.set(4, height)
 
 #images
-img = cv.imread(r'C:\Users\Samhruth\Pictures\Saved Pictures\ForEncry.jpeg')
+img = cv.imread(r'')
 imgresize = rescalesize(img)
 cv.imshow('Sudo', img)
 cv.waitKey(0)
