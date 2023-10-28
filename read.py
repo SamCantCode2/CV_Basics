@@ -12,7 +12,7 @@ cv.imshow('Sudo', img)
 cv.waitKey(0)
 
 #capture = cv.VideoCapture(0) #integer for webcam (0) or connected cameras (1, 2, 3...)
-capture = cv.VideoCapture(r'C:\Users\Samhruth\Videos\MercyMoment.mp4')
+capture = cv.VideoCapture(r'')
 
 while True:
     isTrue, frame = capture.read()
